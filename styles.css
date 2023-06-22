@@ -287,6 +287,11 @@ a:active {
   height: 23em;
   padding: 1em 1.5em 0em 2.9em;
   align-self: center;
+  box-shadow: 1px 4px 5px 0px #aaa;
+}
+
+.div2-div-1:hover {
+  box-shadow: 1px 4px 5px 6px #aaa;
 }
 
 .div2-h4 {
@@ -336,7 +341,12 @@ a:active {
   color: var(--text-color2);
   background-color: var(--bg-color2);
   transform: scale(1.1);
-  padding: 4em 2em 4em 2em;
+  padding: 5.5em 2em 5.5em 2em;
+  box-shadow: 1px 4px 5px 0px var(--bg-color2);
+}
+
+.div2-div-2:hover {
+  box-shadow: 1px 4px 5px 2px var(--bg-color2);
 }
 
 .div2-div-3 {
@@ -348,6 +358,11 @@ a:active {
   padding: 1em 1.5em 0em 2.9em;
   height: 23em;
   align-self: center;
+  box-shadow: 1px 4px 5px 0px #aaa;
+}
+
+.div2-div-3:hover {
+  box-shadow: 1px 4px 5px 6px #aaa;
 }
 
 .div2-div2-buttons {
@@ -380,6 +395,7 @@ a:active {
   background-color: var(--text-color2);
   border: 2px solid var(--text-color1);
   color: var(--text-color1);
+  border-radius: 14px;
 }
 
 /* End of Section 2 */
@@ -438,6 +454,10 @@ a:active {
   font-weight: 600;
 }
 
+.section3-button1:hover {
+  border-radius: 10px;
+}
+
 .flex-button {
   display: flex;
   gap: 0.9em;
@@ -456,6 +476,10 @@ a:active {
   font-weight: 600;
 }
 
+.section3-button2:hover {
+  border-radius: 10px;
+}
+
 .arrow-icon1 {
   width: 12px;
   height: 6px;
@@ -472,6 +496,10 @@ a:active {
   font-weight: 600;
 }
 
+.section3-button3:hover {
+  border-radius: 10px;
+}
+
 .section3-button4 {
   margin-top: 1em;
   width: 28em;
@@ -485,6 +513,10 @@ a:active {
   color: var(--text-color2);
   background-color: var(--text-color1);
   font-weight: 600;
+}
+
+.section3-button4:hover {
+  border-radius: 10px;
 }
 
 .magic-wand {
