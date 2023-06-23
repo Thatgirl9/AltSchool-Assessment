@@ -16,6 +16,10 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
+section {
+  width: 100%;
+}
+
 .section-one {
   margin-bottom: 8em;
 }
