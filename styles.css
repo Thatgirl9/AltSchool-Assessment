@@ -118,8 +118,9 @@ a:active {
 
 .blue-mark {
   margin-top: 0;
-  width: 12em;
+  width: 11em;
   height: 1.5em;
+  margin-top: -1em;
 }
 
 .hero-p {
@@ -162,6 +163,7 @@ a:active {
 .img-div {
   margin-top: 2.3em;
   width: 55%;
+  margin-left: 15em;
 }
 
 .img-circle {
